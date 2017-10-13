@@ -1,7 +1,7 @@
 {
   "name": "finsec",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://camille-s.github.io/finsec",
   "dependencies": {
     "bootstrap": "^3.3.7",
