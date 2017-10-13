@@ -1,0 +1,8 @@
+.Legend {
+    height: 40px;
+}
+
+.Legend .legendCells text {
+    font-size: 90%;
+	font-weight: 300;
+}

@@ -1,0 +1,17 @@
+.Text {
+    height: 140px;
+    font-size: 1.0em;
+}
+
+@media (min-width: 768px) {
+    .Text {
+        height: 250px;
+    }
+}
+
+.Text .text-block {
+    padding-top: 50px;
+    font-size: 1.1em;
+    color: #444;
+    font-weight: 300;
+}

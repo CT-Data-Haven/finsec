@@ -1,0 +1,109 @@
+[{
+    "step": 1,
+    "id2": "income1",
+    "chart": "bar",
+    "bartype": "bar",
+    "format": "dollar",
+    "color": "colorByLoc",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": false
+}, {
+    "step": 2,
+    "id2": "poverty1",
+    "chart": "bar",
+    "bartype": "bar",
+    "format": "percent",
+    "color": "colorByLoc",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": false
+}, {
+    "step": 3,
+    "id2": "income2",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "dollar",
+    "color": "colorBySex",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": true
+}, {
+    "step": 4,
+    "id2": "poverty2",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorBySex",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": true
+}, {
+    "step": 5,
+    "id2": "unemploy1",
+    "chart": "time",
+    "bartype": "bar",
+    "format": "percent",
+    "color": "colorByLoc",
+    "left": 40,
+	"hasLegend": false
+}, {
+    "step": 6,
+    "id2": "unemploy2",
+    "chart": "time",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorByRace",
+    "left": 40,
+	"hasLegend": true
+}, {
+    "step": 7,
+    "id2": "insecure",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorBySex",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": true
+}, {
+    "step": 8,
+    "id2": "index",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorByRace",
+    "projection": "horizontal",
+    "left": 130,
+	"hasLegend": true
+}, {
+    "step": 9,
+    "id2": "home1",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorByLoc",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": false
+}, {
+    "step": 10,
+    "id2": "home2",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorByHome",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": true
+}, {
+    "step": 11,
+    "id2": "burden",
+    "chart": "bar",
+    "bartype": "clusterbar",
+    "format": "percent",
+    "color": "colorByHome",
+    "projection": "vertical",
+    "left": 40,
+	"hasLegend": true
+}]

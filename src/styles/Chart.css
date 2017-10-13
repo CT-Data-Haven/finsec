@@ -1,0 +1,47 @@
+.Chart {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+}
+
+.Chart svg {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Chart path.tick-line {
+	stroke: #cccccc;
+}
+
+.Chart g.pieces rect {
+	opacity: 0.9;
+}
+
+.Chart rect.point {
+	fill-opacity: 0.5;
+}
+
+
+.Chart .chart-titles {
+	height: 70px;
+}
+
+.Chart h2 {
+    font-weight: 400;
+    color: #444;
+    font-size: 1.4em;
+}
+
+.Chart h4 {
+    font-weight: 300;
+    color: #333;
+    font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+    .Chart h2 {
+        font-size: 1.6em;
+    }
+
+    .Chart h4 {
+        font-size: 1.2em;
+    }
+}
