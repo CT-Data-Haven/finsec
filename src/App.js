@@ -33,6 +33,10 @@ const colorTypes = {
     colorByHome: {
         domain: [ 'Female- headed', 'Male- headed', 'Married couple' ],
         range: [ '#db57a2', '#4e92c5', '#92c64e' ]
+    },
+    colorBySecurity: {
+        domain: [ 'Feel financially secure', 'Feel financially insecure' ],
+        range: [ '#db57a2', '#e2dfe6' ]
     }
 };
 

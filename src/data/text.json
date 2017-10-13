@@ -15,7 +15,7 @@
     "id2": "income2",
     "h1": "Median individual income by race and sex",
     "h2": "Connecticut, 2015",
-    "text": "But not everyone in Connecticut has access to these resources. Even these simple measures aren't so simple. White residents, particularly white men, have much higher incomes than other residents."
+    "text": "But even these simple measures aren't so simple. White residents, particularly white men, have much higher incomes than other residents."
 }, {
     "step": 4,
     "id2": "poverty2",
@@ -64,4 +64,10 @@
     "h1": "Severe cost burden by race and household type",
     "h2": "Connecticut, 2015",
     "text": "Both race and household type play into whether a household is severely cost-burdened, or paying more than 50% of their income toward housing costs."
+}, {
+	"step": 12,
+	"id2": "conclusion",
+	"h1": "Feel financially secure",
+	"h2": "Connecticut, 2015",
+	"text": "Connecticut is rich in resources, but we don't all have access to them. How can we ensure financial stability for all our residents?"
 }]

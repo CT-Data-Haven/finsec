@@ -23,10 +23,11 @@ export default class Chart extends React.Component {
 
         let axis = {
             orient: direction,
-            tickFormat: d => format(d)
+            tickFormat: d => format(d),
+			ticks: meta.ticks || 5
         };
 
-        let max = d3.max(data, d => d.y);
+        let max = meta.fill ? '1.0' : d3.max(data, d => d.y);
         let type = meta.bartype !== 'point' ? meta.bartype : { type: 'point', r: 8 };
         let colorExtent = _.chain(data)
             .pluck('color')
@@ -56,7 +57,7 @@ export default class Chart extends React.Component {
                 yExtent={[ 0, max ]}
                 margin={margin}
                 axes={[
-                    { orient: 'left', tickFormat: d3.format('.0%') },
+                    { orient: 'left', tickFormat: d3.format('.0%'), ticks: 5 },
                     { orient: 'bottom', ticks: 8 }
                 ]}
             />);

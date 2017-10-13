@@ -7,7 +7,8 @@
     "color": "colorByLoc",
     "projection": "vertical",
     "left": 40,
-	"hasLegend": false
+	"hasLegend": false,
+	"ticks": 6
 }, {
     "step": 2,
     "id2": "poverty1",
@@ -85,7 +86,8 @@
     "color": "colorByLoc",
     "projection": "vertical",
     "left": 40,
-	"hasLegend": false
+	"hasLegend": false,
+	"ticks": 6
 }, {
     "step": 10,
     "id2": "home2",
@@ -106,4 +108,15 @@
     "projection": "vertical",
     "left": 40,
 	"hasLegend": true
+}, {
+    "step": 12,
+    "id2": "conclusion",
+    "chart": "bar",
+    "bartype": "bar",
+    "format": "percent",
+    "color": "colorBySecurity",
+    "projection": "horizontal",
+    "left": 40,
+    "hasLegend": false,
+    "fill": true
 }]
