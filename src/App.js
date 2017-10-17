@@ -9,34 +9,30 @@ import Text from './components/Text';
 
 import './App.css';
 
-const initData = require('./data/finsec.json');
+const initData = require('./data/finsecv2.json');
 const meta = require('./data/meta.json');
 const text = require('./data/text.json');
 
-// const color = scaleOrdinal()
-//     .domain([ 'Connecticut', 'US', 'Men', 'Women', 'Black', 'Latinx', 'White', 'Female-headed household', 'Male-headed household', 'Married couple' ])
-//     .range([ '#ae85e4', '#70687c', '#57a2db', '#d257db', '#4e56c5', '#45ae72', '#89388f', '#db57a2', '#4e92c5', '#92c64e' ]);
-
 const colorTypes = {
     colorByLoc: {
-        domain: [ 'Connecticut', 'US' ],
-        range: [ '#ae85e4', '#70687c' ]
+        domain: [ 'US', 'Connecticut' ],
+        range: [ '#70687c', '#ae85e4' ]
     },
     colorBySex: {
         domain: [ 'Men', 'Women' ],
         range: [ '#57a2db', '#d257db' ]
     },
     colorByRace: {
-        domain: [ 'Black', 'Latinx', 'White' ],
+        domain: [ 'White', 'Black', 'Latinx' ],
         range: [ '#4e56c5', '#45ae72', '#89388f' ]
     },
     colorByHome: {
         domain: [ 'Female- headed', 'Male- headed', 'Married couple' ],
         range: [ '#db57a2', '#4e92c5', '#92c64e' ]
     },
-    colorBySecurity: {
-        domain: [ 'Feel financially secure', 'Feel financially insecure' ],
-        range: [ '#db57a2', '#e2dfe6' ]
+    colorByAge: {
+        domain: [ 'Under age 45', 'Ages 45-64', 'Ages 65+' ],
+        range: [ '#db9057', '#60db57', '#57dbd2' ]
     }
 };
 
@@ -46,7 +42,9 @@ class App extends React.Component {
         this.state = {
             step: 0,
             width: 500,
-            height: 400
+            height: 400,
+            // motion: 0
+            data: []
         };
         this.onPageChange = this.onPageChange.bind(this);
         this.onResize = this.onResize.bind(this);
@@ -58,8 +56,12 @@ class App extends React.Component {
         clean.forEach((d) => d.y = +d.y);
         this.split = nest()
 			.key((d) => d.step)
+            .key((d) => d.motion)
 			.entries(clean);
         this.meta = meta;
+        this.setState({
+            data: this.split[0].values[0].values
+        });
     }
 
     onResize = (w, h) => {
@@ -73,7 +75,21 @@ class App extends React.Component {
     };
 
     onPageChange(e) {
-        this.setState({step: e - 1});
+        let step = e - 1;
+        let nested = this.split[step].values;
+        this.setState({
+            data: nested[0].values,
+            step: step
+        });
+
+        if (nested.length > 1) {
+            setTimeout(() => {
+                this.setState({
+                    data: nested[1].values
+                });
+            }, 2000);
+        }
+
     }
 
     render() {
@@ -82,6 +98,8 @@ class App extends React.Component {
         let color = scaleOrdinal()
             .domain(colorType.domain)
             .range(colorType.range);
+
+        let data = this.state.data;
 
         return (
             <div className="App">
@@ -95,7 +113,7 @@ class App extends React.Component {
 						</Col>
 						<Col sm={6} md={8}>
                             <Chart
-                                data={this.split[step].values}
+                                data={data}
                                 meta={this.meta[step]}
                                 size={[ this.state.width, this.state.height ]}
                                 color={color}
@@ -107,7 +125,7 @@ class App extends React.Component {
                     <Row>
                         <Col sm={12}>
                             <footer>
-                                <p>Source: DataHaven analysis (2017) of US Census Bureau American Community Survey 2015 5-year estimates, Local Area Unemployment Statistics, and 2015 DataHaven Community Wellbeing Survey. <a href="http://www.ctdatahaven.org/">ctdatahaven.org</a></p>
+                                <p>Source: DataHaven analysis (2017) of US Census Bureau, American Community Survey 2015 5-year estimates; Bureau of Labor Statistics, Current Population Survey, 2002-2016; and 2015 DataHaven Community Wellbeing Survey. <a href="http://www.ctdatahaven.org/">ctdatahaven.org</a></p>
                             </footer>
                         </Col>
                     </Row>
