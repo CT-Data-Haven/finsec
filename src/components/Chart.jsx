@@ -71,15 +71,15 @@ export default class Chart extends React.Component {
                 rExtent={[ 0, max ]}
                 style={ d => { return {
                     fill: color(d.color),
-                    stroke: color(d.color),
-                    strokeWidth: '2px'
+                    // stroke: color(d.color),
+                    // strokeWidth: '2px'
                 }} }
                 projection={meta.projection}
                 oPadding={20}
                 margin={margin}
                 oLabel={true}
                 axis={axis}
-                pieceClass={ d => { return meta.bartype } }
+                // pieceClass={ d => { return meta.bartype } }
             />);
         }
 

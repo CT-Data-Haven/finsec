@@ -1,1 +1,85 @@
-[{"step":1,"name":"median income by location","h1":"Median individual income","h2":"CT vs US, 2015","text":"Connecticut is generally thought of as a wealthy state. For instance, we have higher average incomes…"},{"step":2,"name":"poverty by location","h1":"Poverty rate","h2":"CT vs US, 2015","text":"...and lower rates of poverty than the US."},{"step":3,"name":"median income by race & sex","h1":"Median individual income by race and sex","h2":"Connecticut, 2015","text":"But not everyone in Connecticut has access to these resources. Even these simple measures aren't so simple. White residents, particularly white men, have much higher incomes than other residents."},{"step":4,"name":"poverty by race & sex","h1":"Poverty rate by race and sex","h2":"Connecticut, 2015","text":"Black and Latinx residents are more than 3 times as likely to live in poverty than white residents."},{"step":5,"name":"unemployment statewide","h1":"Unemployment rate","h2":"Connecticut, 2002-2016","text":"And while overall unemployment has gone back down since the Great Recession…"},{"step":6,"name":"unemployment by race","h1":"Unemployment rate by race and sex","h2":"Connecticut, 2002-2016","text":"...some groups started out with high unemployment, and haven't yet recovered."},{"step":7,"name":"financially insecure by race & sex","h1":"Feel financially insecure by race and sex","h2":"Connecticut, 2015","text":"One third of Connecticut adults report feeling financially insecure, but this again differs by race and sex: nearly half of Black adults report financial insecurity."},{"step":8,"name":"security index by race","h1":"Financial security measures by race and sex","h2":"Connecticut, 2015","text":"We see these same disparities across many measures of financial security."},{"step":9,"name":"homeownership by race","h1":"Homeownership rate by race of householder","h2":"Connecticut, 2015","text":"One way of building financial stability is through homeownership, but few Black or Latinx households own their home."},{"step":10,"name":"homeownership by race & type","h1":"Homeownership rate by race and household type","h2":"Connecticut, 2015","text":"Households led by married couples are much more likely to own their home than those led by a single adult, but this varies by race as well."},{"step":11,"name":"homeownership by age","h1":"Homeownership rate by age of householder","h2":"Connecticut, 2015","text":"Younger adults are much less likely to own their homes…"},{"step":12,"name":"homeownership by race & age","h1":"Homeownership rate by race and age","h2":"Connecticut, 2015","text":"…but even as they get older, Black and Latinx households often miss out on this means of financial stability."},{"step":13,"name":"burden by race & type","h1":"Severe cost burden by race and household type","h2":"Connecticut, 2015","text":"Both race and household type play into whether a household is severely cost-burdened, or paying more than 50% of their income toward housing costs."},{"step":14,"name":"financially secure by race & sex","h1":"Feel financially secure by race and sex","h2":"Connecticut, 2015","text":"Connecticut is rich in resources, but we don't all have access to them. How can we ensure financial stability for all our residents?"}]
+[{
+    "step": 1,
+    "name": "median income by location",
+    "h1": "Median individual income",
+    "h2": "CT vs US, 2015",
+    "text": "Connecticut is generally thought of as a wealthy state. For instance, we have higher average incomes…"
+}, {
+    "step": 2,
+    "name": "poverty by location",
+    "h1": "Poverty rate",
+    "h2": "CT vs US, 2015",
+    "text": "...and lower rates of poverty than the US."
+}, {
+    "step": 3,
+    "name": "median income by race & sex",
+    "h1": "Median individual income by race and sex",
+    "h2": "Connecticut, 2015",
+    "text": "But not everyone in Connecticut has access to these resources. Even these simple measures aren't so simple. White residents, particularly white men, have much higher incomes than other residents."
+}, {
+    "step": 4,
+    "name": "poverty by race & sex",
+    "h1": "Poverty rate by race and sex",
+    "h2": "Connecticut, 2015",
+    "text": "Black and Latinx residents are more than 3 times as likely to live in poverty than white residents."
+}, {
+    "step": 5,
+    "name": "unemployment statewide",
+    "h1": "Unemployment rate",
+    "h2": "Connecticut, 2002-2016",
+    "text": "And while overall unemployment has gone back down since the Great Recession…"
+}, {
+    "step": 6,
+    "name": "unemployment by race",
+    "h1": "Unemployment rate by race",
+    "h2": "Connecticut, 2002-2016",
+    "text": "...some groups started out with high unemployment, and haven't yet recovered."
+}, {
+    "step": 7,
+    "name": "financially insecure by race & sex",
+    "h1": "Feel financially insecure by race and sex",
+    "h2": "Connecticut, 2015",
+    "text": "One third of Connecticut adults report feeling financially insecure, but this again differs by race and sex: nearly half of Black adults report financial insecurity."
+}, {
+    "step": 8,
+    "name": "security index by race",
+    "h1": "Financial security measures by race",
+    "h2": "Connecticut, 2015",
+    "text": "We see these same disparities across many measures of financial security."
+}, {
+    "step": 9,
+    "name": "homeownership by race",
+    "h1": "Homeownership rate by race of householder",
+    "h2": "Connecticut, 2015",
+    "text": "One way of building financial stability is through homeownership, but few Black or Latinx households own their home."
+}, {
+    "step": 10,
+    "name": "homeownership by race & type",
+    "h1": "Homeownership rate by race and household type",
+    "h2": "Connecticut, 2015",
+    "text": "Households led by married couples are much more likely to own their home than those led by a single adult, but this varies by race as well."
+}, {
+    "step": 11,
+    "name": "homeownership by age",
+    "h1": "Homeownership rate by age of householder",
+    "h2": "Connecticut, 2015",
+    "text": "Younger adults are much less likely to own their homes…"
+}, {
+    "step": 12,
+    "name": "homeownership by race & age",
+    "h1": "Homeownership rate by race and age",
+    "h2": "Connecticut, 2015",
+    "text": "…but even as they get older, Black and Latinx households often miss out on this means of financial stability."
+}, {
+    "step": 13,
+    "name": "burden by race & type",
+    "h1": "Severe cost burden by race and household type",
+    "h2": "Connecticut, 2015",
+    "text": "Both race and household type play into whether a household is severely cost-burdened, or paying more than 50% of their income toward housing costs."
+}, {
+    "step": 14,
+    "name": "financially secure by race & sex",
+    "h1": "Feel financially secure by race and sex",
+    "h2": "Connecticut, 2015",
+    "text": "Connecticut is rich in resources, but we don't all have access to them. How can we ensure financial stability for all our residents?"
+}]
