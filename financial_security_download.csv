@@ -1,0 +1,140 @@
+step,name,location,year,race,sex/household,age,value,unit,source
+1,median income by location,US,2015,All,All,All,30926,dollar,2015 ACS
+1,median income by location,Connecticut,2015,All,All,All,38324,dollar,2015 ACS
+2,poverty by location,US,2015,All,All,All,0.1547,percent,2015 ACS
+2,poverty by location,Connecticut,2015,All,All,All,0.1052,percent,2015 ACS
+3,median income by race & sex,Connecticut,2015,White,Men,All,52371,dollar,2015 ACS
+3,median income by race & sex,Connecticut,2015,White,Women,All,35654,dollar,2015 ACS
+3,median income by race & sex,Connecticut,2015,Black,Men,All,30131,dollar,2015 ACS
+3,median income by race & sex,Connecticut,2015,Black,Women,All,28264,dollar,2015 ACS
+3,median income by race & sex,Connecticut,2015,Latinx,Men,All,26903,dollar,2015 ACS
+3,median income by race & sex,Connecticut,2015,Latinx,Women,All,20789,dollar,2015 ACS
+4,poverty by race & sex,Connecticut,2015,White,Men,All,0.0537,percent,2015 ACS
+4,poverty by race & sex,Connecticut,2015,White,Women,All,0.0661,percent,2015 ACS
+4,poverty by race & sex,Connecticut,2015,Black,Men,All,0.1946,percent,2015 ACS
+4,poverty by race & sex,Connecticut,2015,Black,Women,All,0.2255,percent,2015 ACS
+4,poverty by race & sex,Connecticut,2015,Latinx,Men,All,0.2275,percent,2015 ACS
+4,poverty by race & sex,Connecticut,2015,Latinx,Women,All,0.2854,percent,2015 ACS
+5,unemployment statewide,Connecticut,2002,All,All,All,0.043,percent,CPS
+5,unemployment statewide,Connecticut,2003,All,All,All,0.055,percent,CPS
+5,unemployment statewide,Connecticut,2004,All,All,All,0.049,percent,CPS
+5,unemployment statewide,Connecticut,2005,All,All,All,0.05,percent,CPS
+5,unemployment statewide,Connecticut,2006,All,All,All,0.043,percent,CPS
+5,unemployment statewide,Connecticut,2007,All,All,All,0.045,percent,CPS
+5,unemployment statewide,Connecticut,2008,All,All,All,0.057,percent,CPS
+5,unemployment statewide,Connecticut,2009,All,All,All,0.081,percent,CPS
+5,unemployment statewide,Connecticut,2010,All,All,All,0.092,percent,CPS
+5,unemployment statewide,Connecticut,2011,All,All,All,0.089,percent,CPS
+5,unemployment statewide,Connecticut,2012,All,All,All,0.084,percent,CPS
+5,unemployment statewide,Connecticut,2013,All,All,All,0.077,percent,CPS
+5,unemployment statewide,Connecticut,2014,All,All,All,0.066,percent,CPS
+5,unemployment statewide,Connecticut,2015,All,All,All,0.056,percent,CPS
+5,unemployment statewide,Connecticut,2016,All,All,All,0.052,percent,CPS
+6,unemployment by race,Connecticut,2002,White,All,All,0.041,percent,CPS
+6,unemployment by race,Connecticut,2002,Black,All,All,0.067,percent,CPS
+6,unemployment by race,Connecticut,2002,Latinx,All,All,0.105,percent,CPS
+6,unemployment by race,Connecticut,2003,White,All,All,0.05,percent,CPS
+6,unemployment by race,Connecticut,2003,Black,All,All,0.098,percent,CPS
+6,unemployment by race,Connecticut,2003,Latinx,All,All,0.103,percent,CPS
+6,unemployment by race,Connecticut,2004,White,All,All,0.046,percent,CPS
+6,unemployment by race,Connecticut,2004,Black,All,All,0.078,percent,CPS
+6,unemployment by race,Connecticut,2004,Latinx,All,All,0.093,percent,CPS
+6,unemployment by race,Connecticut,2005,White,All,All,0.044,percent,CPS
+6,unemployment by race,Connecticut,2005,Black,All,All,0.09,percent,CPS
+6,unemployment by race,Connecticut,2005,Latinx,All,All,0.116,percent,CPS
+6,unemployment by race,Connecticut,2006,White,All,All,0.038,percent,CPS
+6,unemployment by race,Connecticut,2006,Black,All,All,0.081,percent,CPS
+6,unemployment by race,Connecticut,2006,Latinx,All,All,0.082,percent,CPS
+6,unemployment by race,Connecticut,2007,White,All,All,0.04,percent,CPS
+6,unemployment by race,Connecticut,2007,Black,All,All,0.085,percent,CPS
+6,unemployment by race,Connecticut,2007,Latinx,All,All,0.085,percent,CPS
+6,unemployment by race,Connecticut,2008,White,All,All,0.052,percent,CPS
+6,unemployment by race,Connecticut,2008,Black,All,All,0.123,percent,CPS
+6,unemployment by race,Connecticut,2008,Latinx,All,All,0.113,percent,CPS
+6,unemployment by race,Connecticut,2009,White,All,All,0.073,percent,CPS
+6,unemployment by race,Connecticut,2009,Black,All,All,0.167,percent,CPS
+6,unemployment by race,Connecticut,2009,Latinx,All,All,0.127,percent,CPS
+6,unemployment by race,Connecticut,2010,White,All,All,0.083,percent,CPS
+6,unemployment by race,Connecticut,2010,Black,All,All,0.172,percent,CPS
+6,unemployment by race,Connecticut,2010,Latinx,All,All,0.177,percent,CPS
+6,unemployment by race,Connecticut,2011,White,All,All,0.081,percent,CPS
+6,unemployment by race,Connecticut,2011,Black,All,All,0.183,percent,CPS
+6,unemployment by race,Connecticut,2011,Latinx,All,All,0.178,percent,CPS
+6,unemployment by race,Connecticut,2012,White,All,All,0.078,percent,CPS
+6,unemployment by race,Connecticut,2012,Black,All,All,0.149,percent,CPS
+6,unemployment by race,Connecticut,2012,Latinx,All,All,0.157,percent,CPS
+6,unemployment by race,Connecticut,2013,White,All,All,0.07,percent,CPS
+6,unemployment by race,Connecticut,2013,Black,All,All,0.133,percent,CPS
+6,unemployment by race,Connecticut,2013,Latinx,All,All,0.122,percent,CPS
+6,unemployment by race,Connecticut,2014,White,All,All,0.06,percent,CPS
+6,unemployment by race,Connecticut,2014,Black,All,All,0.125,percent,CPS
+6,unemployment by race,Connecticut,2014,Latinx,All,All,0.109,percent,CPS
+6,unemployment by race,Connecticut,2015,White,All,All,0.045,percent,CPS
+6,unemployment by race,Connecticut,2015,Black,All,All,0.132,percent,CPS
+6,unemployment by race,Connecticut,2015,Latinx,All,All,0.113,percent,CPS
+6,unemployment by race,Connecticut,2016,White,All,All,0.047,percent,CPS
+6,unemployment by race,Connecticut,2016,Black,All,All,0.108,percent,CPS
+6,unemployment by race,Connecticut,2016,Latinx,All,All,0.076,percent,CPS
+7,financially insecure by race & sex,Connecticut,2015,White,Men,All,0.2712,percent,2015 Community Wellbeing Survey
+7,financially insecure by race & sex,Connecticut,2015,White,Women,All,0.3233,percent,2015 Community Wellbeing Survey
+7,financially insecure by race & sex,Connecticut,2015,Black,Men,All,0.4677,percent,2015 Community Wellbeing Survey
+7,financially insecure by race & sex,Connecticut,2015,Black,Women,All,0.4866,percent,2015 Community Wellbeing Survey
+7,financially insecure by race & sex,Connecticut,2015,Latinx,Men,All,0.4245,percent,2015 Community Wellbeing Survey
+7,financially insecure by race & sex,Connecticut,2015,Latinx,Women,All,0.4568,percent,2015 Community Wellbeing Survey
+8,Less than 2 mo.s savings,Connecticut,2015,White,All,All,0.2832,percent,2015 Community Wellbeing Survey
+8,Less than 2 mo.s savings,Connecticut,2015,Black,All,All,0.3877,percent,2015 Community Wellbeing Survey
+8,Less than 2 mo.s savings,Connecticut,2015,Latinx,All,All,0.4025,percent,2015 Community Wellbeing Survey
+8,Food insecure,Connecticut,2015,White,All,All,0.0883,percent,2015 Community Wellbeing Survey
+8,Food insecure,Connecticut,2015,Black,All,All,0.2361,percent,2015 Community Wellbeing Survey
+8,Food insecure,Connecticut,2015,Latinx,All,All,0.2627,percent,2015 Community Wellbeing Survey
+8,Lack access to car,Connecticut,2015,White,All,All,0.0679,percent,2015 Community Wellbeing Survey
+8,Lack access to car,Connecticut,2015,Black,All,All,0.2615,percent,2015 Community Wellbeing Survey
+8,Lack access to car,Connecticut,2015,Latinx,All,All,0.2475,percent,2015 Community Wellbeing Survey
+8,Underemployed,Connecticut,2015,White,All,All,0.1242,percent,2015 Community Wellbeing Survey
+8,Underemployed,Connecticut,2015,Black,All,All,0.2574,percent,2015 Community Wellbeing Survey
+8,Underemployed,Connecticut,2015,Latinx,All,All,0.2158,percent,2015 Community Wellbeing Survey
+8,Transportation burden,Connecticut,2015,White,All,All,0.0901,percent,2015 Community Wellbeing Survey
+8,Transportation burden,Connecticut,2015,Black,All,All,0.255,percent,2015 Community Wellbeing Survey
+8,Transportation burden,Connecticut,2015,Latinx,All,All,0.2499,percent,2015 Community Wellbeing Survey
+8,"Use payday loans, etc",Connecticut,2015,White,All,All,0.09,percent,2015 Community Wellbeing Survey
+8,"Use payday loans, etc",Connecticut,2015,Black,All,All,0.2185,percent,2015 Community Wellbeing Survey
+8,"Use payday loans, etc",Connecticut,2015,Latinx,All,All,0.1603,percent,2015 Community Wellbeing Survey
+9,homeownership by race,Connecticut,2015,White,All,All,0.7681,percent,2015 ACS PUMS
+9,homeownership by race,Connecticut,2015,Black,All,All,0.4067,percent,2015 ACS PUMS
+9,homeownership by race,Connecticut,2015,Latinx,All,All,0.3435,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,White,Female- headed,All,0.6353,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,White,Male- headed,All,0.5733,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,White,Married couple,All,0.8962,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Black,Female- headed,All,0.2628,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Black,Male- headed,All,0.3072,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Black,Married couple,All,0.7184,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Latinx,Female- headed,All,0.1868,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Latinx,Male- headed,All,0.1879,percent,2015 ACS PUMS
+10,homeownership by race & type,Connecticut,2015,Latinx,Married couple,All,0.5605,percent,2015 ACS PUMS
+11,homeownership by age,Connecticut,2015,All,All,Under age 45,0.4938,percent,2015 ACS PUMS
+11,homeownership by age,Connecticut,2015,All,All,Ages 45-64,0.7541,percent,2015 ACS PUMS
+11,homeownership by age,Connecticut,2015,All,All,Ages 65+,0.7612,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,White,All,Under age 45,0.6166,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,White,All,Ages 45-64,0.8272,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,White,All,Ages 65+,0.8021,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Black,All,Under age 45,0.2589,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Black,All,Ages 45-64,0.4823,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Black,All,Ages 65+,0.5251,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Latinx,All,Under age 45,0.2675,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Latinx,All,Ages 45-64,0.439,percent,2015 ACS PUMS
+12,homeownership by race & age,Connecticut,2015,Latinx,All,Ages 65+,0.3885,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,White,Female- headed,All,0.2574,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,White,Male- headed,All,0.2021,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,White,Married couple,All,0.0692,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Black,Female- headed,All,0.3758,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Black,Male- headed,All,0.2226,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Black,Married couple,All,0.1111,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Latinx,Female- headed,All,0.4076,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Latinx,Male- headed,All,0.2711,percent,2015 ACS PUMS
+13,severe cost burden by race & type,Connecticut,2015,Latinx,Married couple,All,0.2001,percent,2015 ACS PUMS
+14,financially secure by race & sex,Connecticut,2015,White,Men,All,0.7288,percent,2015 Community Wellbeing Survey
+14,financially secure by race & sex,Connecticut,2015,White,Women,All,0.6767,percent,2015 Community Wellbeing Survey
+14,financially secure by race & sex,Connecticut,2015,Black,Men,All,0.5323,percent,2015 Community Wellbeing Survey
+14,financially secure by race & sex,Connecticut,2015,Black,Women,All,0.5134,percent,2015 Community Wellbeing Survey
+14,financially secure by race & sex,Connecticut,2015,Latinx,Men,All,0.5755,percent,2015 Community Wellbeing Survey
+14,financially secure by race & sex,Connecticut,2015,Latinx,Women,All,0.5432,percent,2015 Community Wellbeing Survey
