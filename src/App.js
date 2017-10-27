@@ -126,6 +126,7 @@ class App extends React.Component {
                         <Col sm={12}>
                             <footer>
                                 <p>Source: DataHaven analysis (2017) of US Census Bureau, American Community Survey 2015 5-year estimates; Bureau of Labor Statistics, Current Population Survey, 2002-2016; and 2015 DataHaven Community Wellbeing Survey. <a href="http://www.ctdatahaven.org/">ctdatahaven.org</a></p>
+								<p><a href="https://github.com/CT-Data-Haven/finsec/blob/master/financial_security_download.csv">DOWNLOAD THE DATA</a></p>
                             </footer>
                         </Col>
                     </Row>
