@@ -32,7 +32,7 @@ const colorTypes = {
     },
     colorByAge: {
         domain: [ 'Under age 45', 'Ages 45-64', 'Ages 65+' ],
-        range: [ '#db9057', '#60db57', '#57dbd2' ]
+        range: [ '#57a2db', '#db9057', '#db5760' ]
     }
 };
 
